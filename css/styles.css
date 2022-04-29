@@ -69,6 +69,7 @@ body {
 }
 /* Hero*/
 .hero-title {
+  text-transform: uppercase;
   color: var(--primery-white-color);
   font-weight: 900;
   font-size: 44px;
@@ -81,6 +82,7 @@ body {
   list-style: none;
  }
 .feature-list .title {
+  text-transform: uppercase;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
