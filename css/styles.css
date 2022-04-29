@@ -27,17 +27,23 @@ body {
 .list {
   list-style: none;
 }
-
+.navigation .link{
+ text-decoration: none;
+ color: var(--title-text-color)
+}
 .logo {
+  text-decoration: none;
   color: var(--logo-text-color);
   font-family: Raleway, cursive;
   font-size: 26px;
   line-height: 1.19;
 }
+.logo-log {
+  color: var(--accent-color);
+}
 
 /* Site nav */
 .site-nav .link {
-  color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -52,7 +58,6 @@ body {
 }
 /* Contact nav */
 .contact-nav {
-  color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -72,6 +77,9 @@ body {
   letter-spacing: 0.06em;
 }
  /* Feature */
+ .feature-list {
+  list-style: none;
+ }
 .feature-list .title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -82,6 +90,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
+
 /* Section */
 .section-title {
   color: var(--title-text-color);
@@ -92,9 +101,12 @@ body {
 }
 /* Examples */
 .work-list {
-
+  list-style: none;
 }
 /* Team*/
+.our-team {
+  list-style: none;
+}
 .our-team .title {
   color: var(--title-text-color);
   font-weight: 500;
@@ -106,6 +118,12 @@ body {
   line-height: 1.19;
 }
 /* Project */
+.project-button {
+  list-style: none;
+}
+.project-desckriotion {
+  list-style: none;
+}
 .project .project-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -118,30 +136,35 @@ body {
   line-height: 1.88;
 }
   /* Footer */
-  .footer-nav-link {
-  color: var(--primery-white-color);
-  font-size: 14px;
-  line-height: 1.71;
-}
-  /* Button */
-.button {
-  font-family: inherit;
-  background-color:var(--primery-white-color) ;
-  color: var(--title-text-color);
-}
-.button.primery {
-   background-color:var(--accent-color) ;
-   color: var(--primery-white-color);
-   font-weight: 700;
-   font-size: 16px;
-   line-height: 1.88;
-   text-align: center;
-}
-.button.secondary {
-  background-color: var(--second-button-color);
-  color: var(--title-text-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
+  .footer .address-list {
+   list-style: none;
   }
+  .address-list-link {
+    text-decoration: none;  
+    color: var(--primery-white-color);
+    font-size: 14px;
+    line-height: 1.71;
+  }
+    /* Button */
+  .button {
+    font-family: inherit;
+    background-color:var(--primery-white-color) ;
+    color: var(--title-text-color);
+  }
+  .button.primery {
+    background-color:var(--accent-color) ;
+    color: var(--primery-white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+  }
+  .button.secondary {
+     list-style: none;
+    background-color: var(--second-button-color);
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    }
 
