@@ -62,7 +62,10 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  }
+}
+.contact-nav .link {
+  color: var(--primery-text-color);
+}
 .contact-nav .link:hover,
 .contact-nav .link:focus {
   color: var(--accent-color); 
@@ -144,8 +147,11 @@ body {
   .address-list-link {
     text-decoration: none;  
     color: var(--primery-white-color);
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
+    
+    
   }
     /* Button */
   .button {
